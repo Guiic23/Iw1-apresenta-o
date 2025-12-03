@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — Pontuação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="brand">
+      <div>
+        <h1>Contato</h1>
+        <p>Fale conosco</p>
+      </div>
+    </div>
+
+    <nav class="nav" aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="conteudo.html">Conteúdo</a>
+      <a href="curiosidade.html">Curiosidade</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Formulário de Contato</h2>
+      <p>Preencha abaixo e enviaremos uma resposta para o seu e-mail.</p>
+
+      <form class="form-row" action="#" method="post" onsubmit="alert('Formulário enviado (simulação).'); return false;">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" name="msg" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <section class="card" style="margin-top:12px">
+      <h3>Contato alternativo</h3>
+      <p>Se preferir, envie um e-mail para: <strong>contato.pontuacao@exemplo.com</strong></p>
+      <p style="margin-top:10px">Endereço (exemplo): Etec Prof. Milton Gazzetti — Sala IW1</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Desenvolvido por Amanda Caroline Pereira Oliveira Silva - IW1 - Etec Prof. Milton Gazzetti © 2025
+  </footer>
+
+</body>
+</html>
